@@ -1,49 +1,31 @@
-import { Input, Grid } from "@nextui-org/react";
+import { NextPage } from "next";
 
-export default function App() {
+import { Textarea, Grid } from "@nextui-org/react";
+
+
+const Page: NextPage = () => {
   return (
-    <Grid.Container gap={4}>
+    <Grid.Container gap={2.5} css={{ mt: "4px" }}>
       <Grid>
-        <Input
-          underlined
-          labelPlaceholder="Default"
-          color="default" />
+        <Textarea labelPlaceholder="Default" status="default" />
       </Grid>
       <Grid>
-        <Input
-          underlined
-          labelPlaceholder="Primary"
-          color="primary"
-        />
+        <Textarea labelPlaceholder="Primary" status="primary" />
       </Grid>
       <Grid>
-        <Input
-          underlined
-          labelPlaceholder="Secondary"
-          color="secondary"
-        />
+        <Textarea labelPlaceholder="Secondary" status="secondary" />
       </Grid>
       <Grid>
-        <Input
-          underlined
-          labelPlaceholder="Success"
-          color="success"
-        />
+        <Textarea labelPlaceholder="Success" status="success" />
       </Grid>
       <Grid>
-        <Input
-          underlined
-          labelPlaceholder="Warning"
-          color="warning"
-        />
+        <Textarea labelPlaceholder="Warning" status="warning" />
       </Grid>
       <Grid>
-        <Input
-          underlined
-          labelPlaceholder="Error"
-          color="error"
-        />
+        <Textarea labelPlaceholder="Error" status="error" />
       </Grid>
     </Grid.Container>
   );
 }
+
+export default Page;

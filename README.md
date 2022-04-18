@@ -32,3 +32,7 @@ Next.jsの詳細については、以下のリソースを参照してくださ�
 Next.jsのアプリをデプロイする最も簡単な方法は、Next.jsの制作者が提供する [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) を利用することです。
 
 詳しくは、 [Next.js deployment ドキュメント](https://nextjs.org/docs/deployment) をご覧ください。
+
+
+## Next UI
+[https://nextui.org/docs](https://nextui.org/docs)
